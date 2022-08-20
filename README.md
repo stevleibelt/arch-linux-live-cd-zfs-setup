@@ -13,7 +13,7 @@ This is a hard fork from [eoli3n/archiso-zfs](https://github.com/eoli3n/archiso-
 Boot your archiso and run the folloging code
 
 ```sh
-curl -s https://archzfs.leibelt.de/media/arch-linux-live-cd-zfs-setup/init | bash
+curl -s https://archzfs.leibelt.de/media/setup/init | bash
 ```
 
 ![dkms-screenshot](./screenshot.png)
@@ -22,7 +22,7 @@ curl -s https://archzfs.leibelt.de/media/arch-linux-live-cd-zfs-setup/init | bas
 
 To run the script in verbose mode, use:
 ```
-curl -s https://archzfs.leibelt.de/media/arch-linux-live-cd-zfs-setup/init | sed 's- &>/dev/null--' | bash &> debug.log
+curl -s https://archzfs.leibelt.de/media/setup/init | sed 's- &>/dev/null--' | bash &> debug.log
 ```
 
 ## Why does this repository exists?

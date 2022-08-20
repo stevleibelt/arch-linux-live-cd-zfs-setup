@@ -19,6 +19,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+## [1.1.1](https://github.com/stevleibelt/arch-linux-live-cd-zfs-setup/tree/1.1.1) - released at 20220820
+
+### Changed
+
+* Changed url for curl
 * Changed comment section in [init](init)
 
 ## [1.1.0](https://github.com/stevleibelt/arch-linux-live-cd-zfs-setup/tree/1.1.0) - released at 20220820
