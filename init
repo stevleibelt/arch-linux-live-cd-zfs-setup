@@ -37,8 +37,8 @@ download_and_execute_arch-config () {
 
         fi
 
-        git clone https://github.com/stevleibelt/arch-config
-        cd arch-config/scripts/zfs/install
+        git clone https://github.com/stevleibelt/arch-linux--configuration
+        cd arch-linux-zfs-configuration/scripts/zfs/install
         ./01-configure.sh
         ./02-install.sh
 
