@@ -1,7 +1,14 @@
 #!/bin/bash
-# This script load zfs kernel module for any archiso.
-# github.com/eoli3n
+####
+# This script load zfs kernel module for any archiso
+####
+# @since: 2020-05-01
+# @author:
+#  eoli3n <https://eoli3n.eu.org/about/>
+#  stevleibelt <artodeto@bazzline.net>
+#
 # Thanks to CalimeroTeknik on #archlinux-fr, FFY00 on #archlinux-projects, JohnDoe2 on #regex
+####
 
 set -e
 

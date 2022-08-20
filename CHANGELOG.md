@@ -15,10 +15,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
+### Changed
+
+* Changed comment section in [init](init)
+
+## [1.0.0](https://github.com/stevleibelt/arch-linux-live-cd-zfs-setup/tree/1.0.0) - released at 20220820
+
+### Added
+
 * Added this changelog
 * Added function `download_and_execute_arch-config`
 
 ### Changed
 
-* Updated readme
+* Updated the [README.md](README.md)
 
