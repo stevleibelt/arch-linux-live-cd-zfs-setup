@@ -20,10 +20,19 @@ curl -s https://archzfs.leibelt.de/media/setup/init | bash
 
 ### Debug
 
+By default, command outputs are redirected to /dev/null.
 To run the script in verbose mode, use:
 ```
-curl -s https://archzfs.leibelt.de/media/setup/init | sed 's- &>/dev/null--' | bash &> debug.log
+curl -s https://archzfs.leibelt.de/media/setup/init | sed 's- &>/dev/null--' | bash -s -- -v
 ```
+Running the script produces a ``debug.log`` file in the current directory.
+To upload this easily, you can
+
+```
+$ pacman -Syy pastebinit
+$ pastebinit -b sprunge.us debug.log
+```
+And then paste me the url in your issue.
 
 ## Why does this repository exists?
 

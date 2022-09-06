@@ -15,9 +15,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
+### Changed
+
+## [1.2.0](https://github.com/stevleibelt/arch-linux-live-cd-zfs-setup/tree/1.2.0) - released at 20220906
+
+### Added
+
 * Added [LICENCE](LICENCE)
+* Added [.gitignore](.gitignore)
 
 ### Changed
+
+* Merged latest commit from [upstream](https://github.com/eoli3n/archiso-zfs)
+  * Changed way of debugging by replacing `set -e` with `init [-h] [-v]`
 
 ## [1.1.1](https://github.com/stevleibelt/arch-linux-live-cd-zfs-setup/tree/1.1.1) - released at 20220820
 
