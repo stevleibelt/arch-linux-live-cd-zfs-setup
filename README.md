@@ -32,7 +32,7 @@ If you want to install Archlinux on ZFS, you need to deal with the [ZFS licensin
 It can happen, that you need a running archiso with the latest kernel quick.   
 This script lets you include the zfs kernel module on any archiso image without creating a custom one.
 
-## What the init-script does in short
+## What the init script does in short
 
 The [Archzfs](https://github.com/archzfs/archzfs/wiki) unofficial user repository offers multiple ways to install the ZFS kernel module.  
 We can install precompiled module with ``zfs-linux`` package or compile the zfs module using [DKMS method](https://wiki.archlinux.org/index.php/ZFS#DKMS).  
@@ -50,6 +50,10 @@ In that case, just switch to the previous month iso.
 ## Developer informations
 
 ```bash
+#add upstream
+git remote add upstream https://github.com/eoli3n/archiso-zfs
+git fetch upstream
+
 loadkeys <your keymap, e.g. de-latin1
 # In pacman.conf, comment SigLevel line
 # Set "SigLevel = Never"
